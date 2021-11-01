@@ -8,7 +8,7 @@ This is a simple media crawler that crawls through over 20 Indonesian news media
 
 The code for the simple user interface is found in the file indonews.php. The file that "processes" the user's entry on the form is indo_scraper.php. 
 
-There are also separate files indo_scraperCRON-first.php and indo_scraperCRON.others.php that sends the results of the crawler every one hour to email addresses. 
+There are also separate files, indo_scraperCRON-first.php and indo_scraperCRON.others.php, that send the results of the crawler every one hour to email addresses. The scheduling is done through my server's Cron Job. 
 
 Other files in the directory represent the codes needed to scrape the required data from the individual news sites. The files are separated this way so that if there are any changes to the DOM/HTML of any of these news sites, only the affected files have to be amended. 
 
