@@ -4,6 +4,8 @@
 
 This is a simple media crawler that crawls through over 20 Indonesian news media outlets. It is built purely using PHP. No PHP framework has been used. 
 
+If you are interested to use this app, please visit [here](http://www.thekazrah.com/php_scrape/indonews.php)
+
 ## File structure
 
 The code for the simple user interface is found in the file indonews.php. The file that "processes" the user's entry on the form is indo_scraper.php. 
